@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
 rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     <main class="container">
@@ -23,24 +23,26 @@ rel='stylesheet'>
             </div>
 
             <div class="input-box">
-                <input type="password" placeholder="Password">
-                <i class="bx bxs-lock-alt"></i>
+                <input type="password" placeholder="Password" id="senha">
+                <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarsenha()"></i>
             </div>
 
             <div class="remember">
                 <label>
                 <input type="checkbox">
-                Remember my password
+            Keep me logged in
                 </label>
-                <a href="">Forget my password</a>
+                <a href="">Forgot my password</a>
             </div>
 
-            <button class="login"  type="submit">Login</button>
+            <button class="login"  type="submit">Submit</button>
             
             <div class="register-link">
-                <p>No have account? <a href="index2.html">Sign-in</a></p>
+                <p>Don't have account? <a href="index2.html">Sign-in</a></p>
 
             </div>
+
+            <script src="./scripts/main.js"></script>
 
         </form>
     </main> 
