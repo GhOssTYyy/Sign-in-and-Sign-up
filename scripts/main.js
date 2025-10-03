@@ -1,25 +1,30 @@
- function mostrarSenha() {
+function mostrarsenha() {
 
-                                var inputPassword = document.getElementById('senha');
+    let inputPass = document.getElementById('senha')
 
-                                var btnShowPassword = document.getElementById('btn-senha');
-
-
-
-                                if (inputPassword.type == 'password') {
-
-                                    inputPassword.type = 'text'
-
-                                    btnShowPassword.className = 'showsenha bi bi-eye-slash-fill'
+    let btn = document.getElementById('btn-senha')
 
 
 
-                                } else {
+    if(inputPass.type === 'password') {
 
-                                    inputPassword.type = 'password'
+        inputPass.setAttribute('type', 'text')
 
-                                    btnShowPassword.className = 'showsenha bi bi-eye-fill'
 
-                                }
 
-                            }
+        btn.classList.replace('bi-eye-fill', 'bi-eye-slash-fill')
+
+    }
+
+
+    else {
+
+        inputPass.setAttribute('type', 'password')
+
+
+
+        btn.classList.replace('bi-eye-slash-fill', 'bi-eye-fill')
+
+    }
+
+}
