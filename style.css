@@ -68,8 +68,11 @@ body {
 }
 
 .remember a {
-    margin-left: 100px;
+    margin-left: 130px;
      color:  rgb(110, 105, 105);
+}
+.register-link {
+    margin-left: 60px;
 }
 
 .register-link a {
@@ -81,5 +84,8 @@ body {
     width: 60%;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 20px; 
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
 }
