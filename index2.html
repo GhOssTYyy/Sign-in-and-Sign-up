@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-in and Log-in</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
 rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     <main class="container">
         <form>
 
             <h1 id="titulo">
+<!--                <a href="index.html" style="text-decoration: none;">
+                <i class="bi bi-arrow-left" id="voltar"></i>
+                </a>-->
                 Sign-in
             </h1>
 
@@ -24,21 +27,26 @@ rel='stylesheet'>
 
             <div class="input-box">
                 <input type="password" placeholder="Password">
-                <i class="bx bxs-lock-alt"></i>
+                <i class="bi bi-eye-fill" id="btn-senha"></i>
+            </div>
+
+                <div class="input-box">
+                <input type="password" placeholder="Re-Password">
+                <i class="bi bi-eye-fill" id="btn-senha"></i>
             </div>
 
             <div class="remember">
                 <label>
                 <input type="checkbox">
-                Remember my password
+                Keep me logged in
                 </label>
-                <a href="">Forget my password</a>
+                <a href="">Forgot my password</a>
             </div>
 
             <button class="login"  type="submit">Login</button>
             
             <div class="register-link">
-                <p>No have account? <a href="index2.html">Sign-in</a></p>
+                <p>Don't have account? <a href="index.html">Sign-in</a></p>
             </div>
 
         </form>
