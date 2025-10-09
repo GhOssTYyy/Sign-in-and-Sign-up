@@ -1,4 +1,4 @@
-function voltar() {
+function voltarpagina() {
 
 window.location.href = "index.html";
 
