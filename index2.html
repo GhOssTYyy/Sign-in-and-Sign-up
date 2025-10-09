@@ -14,9 +14,6 @@ rel='stylesheet'>
         <form>
 
             <h1 id="titulo">
-<!--                <a href="index.html" style="text-decoration: none;">
-                <i class="bi bi-arrow-left" id="voltar"></i>
-                </a>-->
                 Sign-in
             </h1>
 
@@ -26,13 +23,13 @@ rel='stylesheet'>
             </div>
 
             <div class="input-box">
-                <input type="password" placeholder="Password">
-                <i class="bi bi-eye-fill" id="btn-senha"></i>
+                <input type="password" placeholder="Password" id="senha2">
+                <i class="bi bi-eye-fill" id="btn-senha2" onclick="mostrarsenha2()"></i>
             </div>
 
                 <div class="input-box">
-                <input type="password" placeholder="Re-Password">
-                <i class="bi bi-eye-fill" id="btn-senha"></i>
+                <input type="password" placeholder="Re-Password" id="senha3">
+                <i class="bi bi-eye-fill" id="btn-senha3" onclick="mostrarsenha3()"></i>
             </div>
 
             <div class="remember">
@@ -48,6 +45,9 @@ rel='stylesheet'>
             <div class="register-link">
                 <p>Don't have account? <a href="index.html">Sign-in</a></p>
             </div>
+
+            <script src="./js/main2.js"></script>
+            <script src="./js/main3.js"></script>
 
         </form>
     </main> 
