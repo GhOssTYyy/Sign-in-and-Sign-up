@@ -89,9 +89,9 @@ body {
     justify-content: center;
     margin-left: 60px;
 }
-#voltar {
+#Voltar {
     display: flex;
-    font-size: 40px;
+    font-size: 50px;
     background-color: transparent;
     color: #fff;
     cursor: pointer;
